@@ -1,0 +1,28 @@
+body {
+	direction: rtl;
+}
+.button {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px;
+}
+.modal {
+	display: none;
+	width: 45%;
+	height: 45%;
+	z-index: 1;
+	background: gainsboro;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 150px;
+}
+span.close {
+	cursor: pointer;
+	display: flex;
+	left: 20px;
+}
+.taskInputBox {
+	background: var(--white-color);
+	box-shadow: 0 0.5rem 2.4rem var(--shadow-color);
+}
